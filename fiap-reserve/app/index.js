@@ -26,7 +26,7 @@ export default function Login() {
         </View>
       </View>
        
-      <TouchableOpacity style={styles.botao} onPress={() => router.replace("/(tabs)/salas")}>
+      <TouchableOpacity style={styles.botao} onPress={() => router.replace("/salas")}>
         <Text style={styles.textoBotao}>Entrar</Text>
       </TouchableOpacity>
     </View>
