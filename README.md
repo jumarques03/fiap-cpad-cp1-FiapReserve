@@ -23,6 +23,29 @@
 
 ---
 
+## c) Como Rodar o Projeto
+
+Siga as instruções abaixo para configurar o ambiente e rodar o projeto **FiapReserve** em sua máquina
+
+**1. Pré-requisitos:**
+
+Antes de começar, certifique-se de ter instalado:
+* **Node.js**: Versão 18 ou superior (LTS recomendada).
+* **Gerenciador de Pacotes**: npm (instalado com o Node) ou Yarn.
+* **Expo Go**: Aplicativo instalado no seu celular ([Android](https://play.google.com/store/apps/details?id=host.exp.exponent) ou [iOS](https://apps.apple.com/br/app/expo-go/id982107779)).
+* **Git**: Para clonar o repositório.
+
+**2. Passo a Passo para Execução**
+
+* **Clonar o repositório:**
+Abra o seu terminal (ou o terminal do VS Code) e execute:
+git clone [https://github.com/seu-usuario/fiap-cpad-cp1-FiapReserve.git](https://github.com/seu-usuario/fiap-cpad-cp1-FiapReserve.git)
+* **Instalar dependências:** npm install --legacy-peer-deps
+* **Iniciar o projeto:** npx expo start
+* **Abrir o app:** celular > escaneie o QR Code no terminal usando o app Expo Go / emulador > pressione a para Android ou i para iOS (Mac)
+
+---
+
 ## f) Próximos Passos
 
 Caso houvesse mais tempo para a continuidade do projeto, o grupo implementaria as seguintes melhorias:
